@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+}
+
+h2 {
+    text-align: center;
+}
+
+.box{
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+  }
+  .container{
+    border: 2px solid blue;
+    background-color: khaki;
+    height: 1500px;
+  }
+  #box3{
+    position:relative;
+    top: 34px;
+    left: 34px;
+
+    /* position: absolute;
+    top: 34px;
+    left: 34px; */
+
+    /* position: fixed;
+    right: 4px;
+    top: 2px; */
+  }
